@@ -1,14 +1,9 @@
 ---
-sidebar_position: 1
+title: Ansible DOCS
+description: 介紹ansible
+tags:
+    - Ansible
 ---
-
-# Manage Docs Versions
-
-Docusaurus can manage multiple versions of your docs.
-
-## Create a docs version
-
-Release a version 1.0 of your project:
 
 ```bash
 npm run docusaurus docs:version 1.0
@@ -45,7 +40,6 @@ export default {
 
 The docs version dropdown appears in your navbar:
 
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
 
 ## Update an existing version
 

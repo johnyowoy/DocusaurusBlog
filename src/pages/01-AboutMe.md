@@ -1,4 +1,5 @@
 ---
+sidebar_position: 0
 title: 關於我自己
 description: 關於我自己
 tags:
@@ -16,6 +17,10 @@ hide_table_of_contents: false
 
 * 姓名：黃勁豪
 * 暱稱：johnyowoy
+* 工作經歷：
+* * SI系統整合公司 助理工程師(2020/10 - 2021/01)
+* * 傳統產業公司 資訊人員(2021/01 - 2023/01)
+* * 銀行資訊 系統工程師(2023/02 - NOW)
 * 興趣：
 * * 3A遊戲
 * * * 原神
@@ -24,6 +29,10 @@ hide_table_of_contents: false
 * * 手機遊戲
 * * * 蔚藍檔案 Blue Archive
 * * * 貓咪大戰爭
+* * 樂器
+* * * 鋼琴
+* * 音樂
+* * 日文歌曲
 
 # 工作技能樹
 :::warning
