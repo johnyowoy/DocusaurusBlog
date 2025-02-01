@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjinhau_web_blog=self.webpackChunkjinhau_web_blog||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u95dc\u65bc\u6211\u81ea\u5df1","permalink":"/DocusaurusBlog/blog/2024/12/25/welcome","unlisted":false,"date":"2024-12-25T00:00:00.000Z"}]}')}}]);
