@@ -4,82 +4,23 @@
         <title>JOHNYOWOY Blog</title>
         <link>https://github.com/DocusaurusBlog/blog</link>
         <description>JOHNYOWOY Blog</description>
-        <lastBuildDate>Wed, 25 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[關於我自己]]></title>
-            <link>https://github.com/DocusaurusBlog/blog/2024/12/25/welcome</link>
-            <guid>https://github.com/DocusaurusBlog/blog/2024/12/25/welcome</guid>
-            <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[關於我自己]]></description>
-            <content:encoded><![CDATA[<p>這裡是我的個人筆記，記錄了我在IT領域的學習和實踐經驗。由於我時常健忘，我希望能通過這些筆記留下學習的軌跡，並與大家分享我的實戰經驗和練習心得。</p>
-<p>走在IT這條道路上，我深知這是一條需要不斷學習、永無止境的旅程。有時候，它看起來像是一個無底的黑洞，讓人看不見盡頭。然而，學習固然重要，但保持身體健康更為關鍵。不要因為追求知識而讓自己陷入焦慮和苦惱，這樣只會讓你感到痛苦。</p>
-<p>請記得，健康的身體是我們最寶貴的資產。希望我的筆記能對你有所幫助，同時也提醒自己和大家在學習的過程中保持平衡，享受每一刻的成長。</p>
-<ul>
-<li>姓名：黃勁豪</li>
-<li>暱稱：johnyowoy</li>
-<li>興趣：</li>
-<li>
-<ul>
-<li>3A遊戲</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>
-<ul>
-<li>原神</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>
-<ul>
-<li>絕區零</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>
-<ul>
-<li>鳴潮</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>手機遊戲</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>
-<ul>
-<li>蔚藍檔案 Blue Archive</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>
-<ul>
-<li>貓咪大戰爭</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1>工作技能樹</h1>
-<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>正在建立當中...</p></div></div>]]></content:encoded>
-            <category>關於我自己</category>
+            <title><![CDATA[test]]></title>
+            <link>https://github.com/DocusaurusBlog/blog/2025/02/02/test</link>
+            <guid>https://github.com/DocusaurusBlog/blog/2025/02/02/test</guid>
+            <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[北海道札幌之旅：與紅燈區的初次邂逅]]></title>
+            <link>https://github.com/DocusaurusBlog/blog/2025/01/31/北海道札幌之旅：與紅燈區的初次邂逅</link>
+            <guid>https://github.com/DocusaurusBlog/blog/2025/01/31/北海道札幌之旅：與紅燈區的初次邂逅</guid>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[注意!! 感謝您的注意!!!]]></description>
+            <content:encoded><![CDATA[<div><div><h1>本站內容需滿十八歲方可瀏覽。</h1><p>依「兒童及少年福利與權益保障法」規定，因本站刊載含有不宜兒少瀏覽之內容，若您尚未年滿十八歲，請離開此網頁。 若您已滿十八歲，亦不可將本站之內容派發、傳閱、出售、出租、交給或借予年齡未滿十八歲的人士瀏覽，或將本站內容向該人士出示、播放或放映。</p><h2>請輸入您的年齡進行驗證。Age Verification.</h2><p>Please enter your age:</p><input type="number" id="age" name="age" min="1" max="120"><button>Verify</button></div></div>]]></content:encoded>
         </item>
     </channel>
 </rss>
