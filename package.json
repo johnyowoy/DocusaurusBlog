@@ -1,5 +1,5 @@
 {
-  "name": "jinhau-web-blog",
+  "name": "jinhau-blogwebsite",
   "version": "0.0.0",
   "private": true,
   "homepage": "https://johnyowoy.github.io/Blog",
@@ -18,7 +18,9 @@
     "@docusaurus/core": "^3.7.0",
     "@docusaurus/preset-classic": "^3.7.0",
     "@mdx-js/react": "^3.0.0",
+    "bootstrap": "^5.3.3",
     "clsx": "^2.0.0",
+    "docusaurus": "^1.14.7",
     "gh-pages": "^6.2.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
