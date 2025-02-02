@@ -14,7 +14,7 @@ hide_table_of_contents: false
 
 請記得，健康的身體是我們最寶貴的資產。希望我的筆記能對你有所幫助，同時也提醒自己和大家在學習的過程中保持平衡，享受每一刻的成長。
 <!-- truncate -->
-
+![キサキ - pixiv といぺー](/img/pixiv_artworks_124322294.png)
 * 姓名：黃勁豪
 * 暱稱：johnyowoy
 * 工作經歷：
