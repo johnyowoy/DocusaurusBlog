@@ -1,32 +1,69 @@
-// 創建一個年齡驗證組件
 import React, { useState } from 'react';
 
 function AgeVerification({ children }) {
   const [isVerified, setIsVerified] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const currentYear = new Date().getFullYear();
+  const years = Array.from(new Array(100), (val, index) => currentYear - index);
 
-  const handleVerification = (age) => {
+  const handleVerification = (birthYear) => {
+    const age = currentYear - birthYear;
     if (age >= 18) {
       setIsVerified(true);
     } else {
-      alert("您必須年滿18歲以上才可以瀏覽文章\nYou must be at least 18 years old to view this content.");
+      setShowModal(true);
     }
   };
 
+  const handleClose = () => setShowModal(false);
+
   return (
-    <div>
+    <div className="container mt-5">
       {isVerified ? (
         children
       ) : (
         <div>
-          <h1>本站內容需滿十八歲方可瀏覽。</h1>
-          <p>依「兒童及少年福利與權益保障法」規定，因本站刊載含有不宜兒少瀏覽之內容，若您尚未年滿十八歲，請離開此網頁。
-          若您已滿十八歲，亦不可將本站之內容派發、傳閱、出售、出租、交給或借予年齡未滿十八歲的人士瀏覽，或將本站內容向該人士出示、播放或放映。</p>
-          <h2>請輸入您的年齡進行驗證。Age Verification.</h2>
-          <p>Please enter your age:</p>
-          <input type="number" id="age" name="age" min="1" max="120" />
-          <button onClick={() => handleVerification(document.getElementById("age").value)}>
-            Verify
-          </button>
+          <div className="card">
+            <div className="card-body">
+              <h1 className="card-title">本站文章內容需滿十八歲方可瀏覽</h1>
+              <p className="card-text">
+                依「兒童及少年福利與權益保障法」規定，因本站刊載含有不宜兒少瀏覽之內容，若您尚未年滿十八歲，請離開此網頁。
+                若您已滿十八歲，亦不可將本站之內容派發、傳閱、出售、出租、交給或借予年齡未滿十八歲的人士瀏覽，
+                或將本站內容向該人士出示、播放或放映。
+              </p>
+              <h2 className="card-subtitle mb-2">請選擇您的出生年份進行驗證</h2>
+              <p className="card-text">Please select your birth year:</p>
+              <div className="input-group mb-3">
+                <select className="form-select" id="birthYear">
+                  {years.map((year) => (
+                    <option key={year} value={year}>{year}</option>
+                  ))}
+                </select>
+                <button className="btn btn-primary" onClick={() => handleVerification(document.getElementById("birthYear").value)}>
+                  Verify
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Bootstrap Modal */}
+          <div className={`modal ${showModal ? 'show' : ''}`} style={{ display: showModal ? 'block' : 'none' }} tabIndex="-1">
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">年齡驗證失敗</h5>
+                  <button type="button" className="btn-close" onClick={handleClose}></button>
+                </div>
+                <div className="modal-body">
+                  <p>您必須年滿18歲以上才可以瀏覽文章</p>
+                  <p>You must be at least 18 years old to view this content.</p>
+                </div>
+                <div className="modal-footer">
+                  <button type="button" className="btn btn-secondary" onClick={handleClose}>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       )}
     </div>
