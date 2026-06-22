@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkjinhau_blogwebsite=globalThis.webpackChunkjinhau_blogwebsite||[]).push([[4387],{5627(a){a.exports=JSON.parse('{"metadata":{"permalink":"/DocusaurusBlog/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
